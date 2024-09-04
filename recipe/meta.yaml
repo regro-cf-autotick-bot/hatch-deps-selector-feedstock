@@ -1,5 +1,5 @@
 {% set name = "hatch-deps-selector" %}
-{% set version = "0.1.1" %}
+{% set version = "0.1.2" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/hatch_deps_selector-{{ version }}.tar.gz
-  sha256: 4c2eef06c95805ecd1ac257ad7b0d49fbaf493d4033f8c4a6ae27e2dec3f2380
+  sha256: 6d87d62c83292ce356e9f1b0386dd4f88de7f2ab0e52bfe476fc3e4ee2421e61
 
 build:
   noarch: python
